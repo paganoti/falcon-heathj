@@ -1,137 +1,67 @@
-# Falcon Health
+# Falcon Health • Sistema Integrado de Gestão Clínica
 
-Plataforma Web Integrada para Gestão de Clínicas Populares
+> **Projeto Acadêmico Interdisciplinar — Solução em Tecnologia para Rede de Clínicas Populares**  
+> **Empresa Fictícia:** Falcon Health Soluções Digitais  
+> **Segmento de Atuação:** HealthTech / Transformação Digital na Saúde  
 
 ---
 
-## Equipe
+## 🏢 1. A Empresa: Falcon Health
+A **Falcon Health** é uma HealthTech dedicada a modernizar e integrar os fluxos operacionais de redes de clínicas de saúde popular. Nossa missão é unir confiabilidade técnica, simplicidade de uso e rigoroso cumprimento da legislação de dados pessoais em saúde para conectar médicos, atendentes e pacientes em um ambiente digital unificado.
 
-| # | Papel | Integrante |
+* **Área de Atuação:** Sistemas em nuvem para gestão clínica, recepção inteligente e prontuário integrado.
+* **Proposta de Valor:** Eliminar gargalos de agendamento (overbooking, faltas não notificadas e perda de histórico de pacientes), promovendo uma experiência humanizada, rápida e acessível.
+
+---
+
+## 👥 2. Equipe & Papéis Profissionais
+
+| Integrante | Papel Profissional | Responsabilidade Principal |
 |---|---|---|
-| 1 | Product Owner (PO) / Analista de Requisitos | João Pedro |
-| 2 | Designer de Experiência e Interface (UX/UI) | Claudelisson |
-| 3 | Engenheiro de Back-end e Banco de Dados | Christian |
-| 4 | Engenheiro Front-end | Pedro Henrique |
-| 5 | Analista de Segurança da Informação e Privacidade | Enzo Paganoti |
-
-
----
-
-## Sobre o Projeto
-
-A Falcon Health Soluções Digitais é uma empresa de HealthTech focada em desenvolver soluções web integradas em nuvem para modernizar clínicas populares. O objetivo é centralizar agendamentos, reduzir conflitos operacionais e garantir comunicação rápida entre pacientes e equipe clínica.
-
-### O Problema
-
-Processos manuais fragmentados — mensagens, ligações e planilhas desconexas — resultam em:
-
-- Agendamentos duplicados (overbooking)
-- Histórico do paciente inacessível entre filiais
-- Altas taxas de faltas (no-show)
-- Filas desorganizadas na recepção
-
-### A Solução
-
-Uma Plataforma Web Integrada Responsiva, acessível diretamente pelo navegador, sem exigir instalação de softwares nas clínicas nem aplicativos pesados para os pacientes.
-
-**Público-alvo:**
-
-| Perfil | Benefício Principal |
-|---|---|
-| Pacientes | Agendamento facilitado e lembretes automáticos |
-| Recepcionistas | Gestão da fila e agenda unificada |
-| Médicos | Prontuário básico unificado entre filiais |
-| Gestão | Indicadores de faltas e ocupação |
+| **[Nome do Aluno 1]** | Product Owner (PO) / Análise de Requisitos | Mapeamento de dores da clínica, priorização de escopo e gestão do backlog do MVP. |
+| **[Nome do Aluno 2]** | UX/UI Designer | Pesquisa de personas, design da jornada e interfaces inclusivas de alta usabilidade. |
+| **[Nome do Aluno 3]** | Software Engineer (Back-end & Banco de Dados) | Modelagem relacional em nuvem, controle de concorrência e APIs seguras. |
+| **[Nome do Aluno 4]** | Front-end Engineer | Interface web responsiva, leveza de renderização e integração de endpoints. |
+| **[Nome do Aluno 5]** | InfoSec & Compliance Analyst (Segurança & LGPD) | Controle de acesso baseado em papéis (RBAC), Privacy by Design e trilhas de auditoria. |
 
 ---
 
-## Requisitos do Sistema (Metodologia MoSCoW)
+## 🩺 3. Resumo da Solução Proposta
 
-### Requisitos Funcionais (RF)
-
-| Cód. | Requisito | Prioridade |
-|---|---|---|
-| RF01 | Gestão de Agendamentos (marcação, reagendamento, cancelamento com trava em tempo real) | Alta (Must) |
-| RF02 | Unidades e Especialidades (cadastro de médicos, salas e horários por unidade) | Alta (Must) |
-| RF03 | Painel de Recepção / Fila (check-in e status da sala de espera) | Alta (Must) |
-| RF04 | Prontuário Básico Unificado entre filiais | Alta (Must) |
-| RF05 | Controle de Perfis (RBAC) | Alta (Must) |
-| RF06 | Lembretes Automáticos via WhatsApp/SMS | Média (Should) |
-| RF07 | Portal do Paciente | Média (Should) |
-| RF08 | Painel Analítico de Gestão | Baixa (Could) |
-
-### Requisitos Não Funcionais (RNF)
-
-| Cód. | Critério | Prioridade |
-|---|---|---|
-| RNF01 | Segurança e LGPD (TLS 1.3, dados cifrados, auditoria) | Alta (Must) |
-| RNF02 | Integridade e Concorrência (bloqueio transacional) | Alta (Must) |
-| RNF03 | Responsividade (desktop e mobile) | Alta (Must) |
-| RNF04 | Desempenho de Carga (< 3s em redes 3G/4G) | Média (Should) |
-| RNF05 | Acessibilidade (WCAG) | Média (Should) |
-| RNF06 | Disponibilidade de Serviço (uptime ≥ 99,5%) | Média (Should) |
-
+* **Formato:** Plataforma Web Integrada e Responsiva (SaaS multitenant para clínicas).
+* **Por que plataforma web?** Permite o uso em qualquer navegador nos computadores existentes na recepção e consultórios das clínicas, dispensando aquisição de novas máquinas. Para o paciente, roda direto no navegador do smartphone via link curto, sem forçar download de aplicativos em celulares com memória limitada.
+* **Módulos Principais:**
+  1. Central de agendamento com validação em tempo real contra concorrência de horários;
+  2. Painel dinâmico da sala de espera com status da fila da recepção;
+  3. Prontuário clínico básico unificado entre todas as filiais da rede médica;
+  4. Módulo automatizado de confirmação e desmarcação com liberação instantânea de vagas.
 
 ---
 
-## Estrutura do Projeto Web
+## 📁 4. Estrutura do Repositório
 
-```
+Navegue pela documentação técnica e pelas publicações individuais da equipe:
+
+```text
 falcon-health/
-├── frontend/
-│   ├── public/                     # Arquivos estáticos (favicon, imagens, manifest)
-│   ├── src/
-│   │   ├── assets/                 # Imagens, ícones e fontes
-│   │   ├── components/             # Componentes reutilizáveis (botões, cards, modais)
-│   │   ├── pages/                  # Telas da aplicação (Login, Agenda, Fila, Prontuário)
-│   │   ├── services/                # Consumo da API (chamadas HTTP)
-│   │   ├── hooks/                  # Hooks customizados
-│   │   ├── routes/                 # Definição de rotas da aplicação
-│   │   ├── styles/                 # Estilos globais / configuração Tailwind
-│   │   └── App.jsx
-│   ├── package.json
-│   └── vite.config.js
-│
-├── backend/
-│   ├── src/
-│   │   ├── controllers/            # Regras de entrada das requisições
-│   │   ├── services/               # Regras de negócio (ex: validação de conflito de agenda)
-│   │   ├── models/                 # Modelagem das entidades (Paciente, Médico, Consulta)
-│   │   ├── routes/                 # Definição dos endpoints da API REST
-│   │   ├── middlewares/            # Autenticação (JWT), RBAC e tratamento de erros
-│   │   ├── config/                 # Configuração de banco de dados e variáveis de ambiente
-│   │   └── server.js
-│   ├── database/
-│   │   ├── migrations/             # Scripts de criação/alteração de tabelas
-│   │   └── seeds/                  # Dados iniciais para testes
-│   ├── package.json
-│   └── .env.example
-│
+├── README.md                          # Visão geral, membros e apresentação da solução
 ├── docs/
-│   ├── 01-problema-e-solucao.md
-│   ├── 02-requisitos-e-prioridades.md
-│   ├── 03-papeis-profissionais.md
-│   ├── 04-seguranca-privacidade.md
-│   └── 05-organizacao-e-decisoes.md
-│
-├── .gitignore
-└── README.md
+│   ├── 01-empresa-e-problema.md       # Diagnóstico do cenário atual das clínicas e problemas
+│   ├── 02-solucao-e-formato.md        # Formato técnico, público-alvo e funcionamento
+│   ├── 03-requisitos-e-mvp.md         # Requisitos funcionais, não funcionais e priorização MoSCoW
+│   ├── 04-papeis-profissionais.md     # Ficha técnica detalhada dos 5 integrantes
+│   ├── 05-seguranca-e-lgpd.md         # Políticas de privacidade, matriz RBAC e acessibilidade
+│   └── 06-decisoes-de-projeto.md      # Metodologia ágil, histórico de reuniões e decisões técnicas
+└── linkedin/
+    ├── post-01-gestao-produto.md      # Texto individual e reflexão do Integrante 1 (PO)
+    ├── post-02-ux-ui.md               # Texto individual e reflexão do Integrante 2 (UX/UI)
+    ├── post-03-backend.md             # Texto individual e reflexão do Integrante 3 (Back-end)
+    ├── post-04-frontend.md            # Texto individual e reflexão do Integrante 4 (Front-end)
+    └── post-05-seguranca.md           # Texto individual e reflexão do Integrante 5 (InfoSec/LGPD)
 ```
 
 ---
 
-## Segurança e Privacidade (LGPD)
-
-O projeto adota Privacy by Design desde a concepção:
-
-- Criptografia TLS 1.3 em trânsito e dados sensíveis cifrados em repouso
-- Trilha de auditoria completa de acessos
-- Controle de acesso granular por papel (RBAC)
-- Conformidade com a LGPD/ANPD e políticas de retenção de dados
-
-
----
-
-## Licença
-
-Projeto acadêmico interdisciplinar — uso educacional.
+## ⏱️ 5. Prazos & Entregas Oficiais
+* **Data Limite para Envio do GitHub:** 17 de setembro, às 12:00.
+* **Apresentação Oficial para a Banca:** 18 de setembro (Pitch de até 15 minutos).
