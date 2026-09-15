@@ -18,11 +18,11 @@ A **Falcon Health** é uma HealthTech dedicada a modernizar e integrar os fluxos
 
 | Integrante | Papel Profissional | Responsabilidade Principal |
 |---|---|---|
-| **[Nome do Aluno 1]** | Product Owner (PO) / Análise de Requisitos | Mapeamento de dores da clínica, priorização de escopo e gestão do backlog do MVP. |
-| **[Nome do Aluno 2]** | UX/UI Designer | Pesquisa de personas, design da jornada e interfaces inclusivas de alta usabilidade. |
-| **[Nome do Aluno 3]** | Software Engineer (Back-end & Banco de Dados) | Modelagem relacional em nuvem, controle de concorrência e APIs seguras. |
-| **[Nome do Aluno 4]** | Front-end Engineer | Interface web responsiva, leveza de renderização e integração de endpoints. |
-| **[Nome do Aluno 5]** | InfoSec & Compliance Analyst (Segurança & LGPD) | Controle de acesso baseado em papéis (RBAC), Privacy by Design e trilhas de auditoria. |
+| **[João Pedro]** | Product Owner (PO) / Análise de Requisitos | Mapeamento de dores da clínica, priorização de escopo e gestão do backlog do MVP. |
+| **[Claudelisson]** | UX/UI Designer | Pesquisa de personas, design da jornada e interfaces inclusivas de alta usabilidade. |
+| **[Christian]** | Software Engineer (Back-end & Banco de Dados) | Modelagem relacional em nuvem, controle de concorrência e APIs seguras. |
+| **[Pedro Henrique Torres]** | Front-end Engineer | Interface web responsiva, leveza de renderização e integração de endpoints. |
+| **[Enzo Paganoti]** | InfoSec & Compliance Analyst (Segurança & LGPD) | Controle de acesso baseado em papéis (RBAC), Privacy by Design e trilhas de auditoria. |
 
 ---
 
@@ -61,7 +61,3 @@ falcon-health/
 ```
 
 ---
-
-## ⏱️ 5. Prazos & Entregas Oficiais
-* **Data Limite para Envio do GitHub:** 17 de setembro, às 12:00.
-* **Apresentação Oficial para a Banca:** 18 de setembro (Pitch de até 15 minutos).
