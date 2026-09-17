@@ -1,10 +1,4 @@
-# Publicação no LinkedIn • Integrante 1 (Product Owner & Requisitos)
-
-**Autor Simulado:** Integrante 1  
-**Cargo Simulado:** Product Owner & Analista de Requisitos | Falcon Health Soluções Digitais  
-**Contexto:** Publicação profissional simulando a rotina e o aprendizado técnico durante a concepção do projeto.
-
----
+# Publicação no LinkedIn • João Pedro (Product Owner & Requisitos)
 
 ### Texto da Publicação:
 
