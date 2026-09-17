@@ -1,10 +1,4 @@
-# Publicação no LinkedIn • Integrante 4 (Front-end Engineer)
-
-**Autor Simulado:** Integrante 4  
-**Cargo Simulado:** Front-end Engineer | Falcon Health Soluções Digitais  
-**Contexto:** Publicação profissional simulando a rotina e o aprendizado técnico durante a concepção do projeto.
-
----
+# Publicação no LinkedIn • Pedro Henrique (Front-end Engineer)
 
 ### Texto da Publicação:
 
