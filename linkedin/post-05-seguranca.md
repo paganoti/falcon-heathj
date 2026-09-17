@@ -1,10 +1,4 @@
-# Publicação no LinkedIn • Integrante 5 (Segurança & LGPD)
-
-**Autor Simulado:** Integrante 5  
-**Cargo Simulado:** InfoSec & Compliance Analyst | Falcon Health Soluções Digitais  
-**Contexto:** Publicação profissional simulando a rotina e o aprendizado técnico durante a concepção do projeto.
-
----
+# Publicação no LinkedIn • Enzo (Segurança & LGPD)
 
 ### Texto da Publicação:
 
