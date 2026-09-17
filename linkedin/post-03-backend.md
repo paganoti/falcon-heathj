@@ -1,10 +1,4 @@
-# Publicação no LinkedIn • Integrante 3 (Back-end & Banco de Dados)
-
-**Autor Simulado:** Integrante 3  
-**Cargo Simulado:** Software Engineer (Back-end & Dados) | Falcon Health Soluções Digitais  
-**Contexto:** Publicação profissional simulando a rotina e o aprendizado técnico durante a concepção do projeto.
-
----
+# Publicação no LinkedIn • Christian (Back-end & Banco de Dados)
 
 ### Texto da Publicação:
 
