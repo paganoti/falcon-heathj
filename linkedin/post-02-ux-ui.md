@@ -1,10 +1,4 @@
-# Publicação no LinkedIn • Integrante 2 (UX/UI Designer)
-
-**Autor Simulado:** Integrante 2  
-**Cargo Simulado:** UX/UI Designer | Falcon Health Soluções Digitais  
-**Contexto:** Publicação profissional simulando a rotina e o aprendizado técnico durante a concepção do projeto.
-
----
+# Publicação no LinkedIn • Claudelisson (UX/UI Designer)
 
 ### Texto da Publicação:
 
